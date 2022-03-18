@@ -7,13 +7,15 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>PythomStudents home Title 22 777</h1>
+    <h1>Python Students home </h1>
 
     {% for x in studentsData %} {{x.name}} {{x.price}}
     <br />
+    <img src="{{x.image.url}}" alt="">
     {% endfor %}
 
     <h2>Students count = {{students}}</h2>
     <br />
+
   </body>
 </html>
