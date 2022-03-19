@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'students',
     'watchman',
+    'forms.apps.FormsConfig',
+    # Capitalize first letter of app in the third word
     # Capitalize first letter of app in the third word
 ]
 

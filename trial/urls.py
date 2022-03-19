@@ -25,7 +25,8 @@ urlpatterns = [
     path('sebha/', include("sebha.urls")),
     path('products/', include("products.urls")),
     path('students/', include("students.urls")),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('forms/', include("forms.urls")),
+] 
 
 # add include to imports above
 # path of tha app inside url of project
